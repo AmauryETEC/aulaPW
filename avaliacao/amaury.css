@@ -1,0 +1,134 @@
+body {
+    background-color: rgba(0, 0, 0, .9);
+    height: 100vh;
+    overflow: hidden;
+}
+
+
+/* card styles */
+
+.card {
+    background-image: linear-gradient(hsl(213, 19%, 18%), hsl(216, 12%, 8%));
+    border-radius: 40px;
+    border-radius: 2.5rem;
+    width: 25rem;
+    margin: 0 auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+img {
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 100%;
+    padding: 15px;
+    margin: 30px 0 10px 30px;
+    padding: 0.9375rem;
+    margin: 1.875rem 0 0.625rem 1.875rem;
+}
+
+h2 {
+    font-family: 'Overpass';
+    font-weight: 700;
+    margin: 20px 0 20px 30px;
+    margin: 1.25rem 0 1.25rem 1.875rem;
+    width: fit-content;
+    color: hsl(0, 0%, 100%);
+}
+
+p {
+    color: hsl(217, 12%, 63%);
+    font-size: 0.9375rem;
+    font-family: 'Overpass';
+    font-weight: 400;
+    margin-left: 30px;
+    width: 350px;
+    margin-left: 1.875rem;
+    width: 21.875rem;
+}
+
+
+/* form syles */
+
+.selection-buttons {
+    width: fit-content;
+    margin-left: 30px;
+    margin-left: 1.875rem;
+}
+
+label {
+    display: inline-block;
+    padding: 5px;
+    margin: 15px 0 0 15px;
+    padding: 0.3125rem;
+    margin: .9375rem 0 0 .9375rem;
+    font-family: "Overpass";
+}
+
+.selection-buttons__one {
+    margin-left: 0;
+}
+
+label input {
+    display: none;
+}
+
+label span {
+    background-color: hsl(213, 19%, 18%);
+    border: 1px solid hsl(213, 19%, 18%);
+    color: hsl(217, 12%, 63%);
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    width: 2.5rem;
+    height: 2.5rem;
+    overflow: hidden;
+    line-height: 2.5;
+    text-align: center;
+    border-radius: 100%;
+    font-size: 10pt;
+    padding-top: 1px;
+    font-size: 1rem;
+}
+
+label span:hover {
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+}
+
+input:checked+span {
+    background: hsl(217, 12%, 63%);
+    border-color: hsl(217, 12%, 63%);
+    color: white;
+}
+
+.card__submit-button {
+    margin: 20px 0 20px 20px;
+    margin: 1.25rem 0 1.25rem 1.25rem;
+}
+
+.card__submit-button input[type='submit'] {
+    color: white;
+    background: hsl(25, 97%, 53%);
+    border: hsl(25, 97%, 53%);
+    border-radius: 30px;
+    border-radius: 1.875rem;
+    font-family: "Overpass";
+    font-size: 15px;
+    font-size: 0.9375rem;
+    font-weight: 700;
+    margin: 5px 0 25px 10px;
+    padding: 15px;
+    width: 340px;
+    letter-spacing: 2px;
+    margin: 0.3125rem 0 1.5625rem 0.625rem;
+    padding: 0.9375rem;
+    width: 21.25rem;
+    letter-spacing: 0.125rem;
+    cursor: pointer;
+}
+
+.card__submit-button input[type="submit"]:active {
+    color: hsl(25, 97%, 53%);
+    background-color: white;
+}

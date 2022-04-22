@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="amaury.css">
+
+    <link rel="icon" type="imagem" sizes="32x32" href="estrela.png">
+    <link rel="stylesheet" href="amaury.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
+
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="card">
+
+        <!-- Rating state start -->
+
+        <img src="estrela.png" width="70px" height="70px">
+
+
+        <h2>Avalie nossos serviços</h2>
+        <p>Buscamos melhorar cada vez mais o atendimento que prestamos. É fundamental saber sua opinião sobre nossos serviços executados, assim poderemos corrigir eventuais falhas e melhorar o processo. Por favor, indique abaixo o Nível de Satisfação abaixo.</p>
+
+        <div class='selection-buttons'>
+            <script type="text/javascript" src="script.js"></script>
+            <form id='rating' name="rating-form" action="#" method="post">
+                <label class="selection-buttons__one"><input type='radio' name="select" value="1" ><span>1</span></label>
+                <label><input type='radio' name="select" value="2"><span>2</span></label>
+                <label><input type='radio' name="select" value="3"><span>3</span></label>
+                <label><input type='radio' name="select" value="4"><span>4</span></label>
+                <label><input type='radio' name="select" value="5" ><span>5</span></label>
+        </div>
+        <p class="alert"></p>
+        <section class='card__submit-button'>
+            <input type="submit" value="SUBMIT" onclick="validateForm()">
+        </section>
+        </form>
+    </div>
+
+
+
+    <script src="js/jquery-3.6.0.min.js "></script>
+    <script src="js/bootstrap.js "></script>
+</body>
+
+</html>
