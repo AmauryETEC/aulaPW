@@ -1,25 +1,41 @@
 <?php
 
-    $dia = $_GET['dia'];
+        //Funções (rotinas) em php
+        //uma função é uma pequena rotina nomeada que permite que certo algorito seja reutilizado pela aplicação, garantindo
+        //que seu código não será reutulizado pela aplicação, garantindo que seu código não será duplicado, e que a sua manutenção 
+        //será feita em apenas um lugar.
+        //Uma função efetua uma tarefa epecífica, possivelmente processando um conjunto de valores fornecidos a ela (Parâmetros)
+        //e/ou retornando algum valor
 
-    switch($dia){
 
-    case 1:
-    case : 7:
+        //função
+        $operador = "+";
+        function somar($v1, $v2){
+            $soma = $v1 + $v2;
 
-        case 2:
-            echo "Vá para escola";
-        break;
+            return "</h2>$soma<h2>";
+        }
 
-        case 2:
-            case 3:
-                case 4:
-                    case 4:
-                        case 5:
-                            case 6:
-                                case 7:
-                                echo "Pode descansar";
-    default:
-}
+
+        echo "A soma é: " . somar(10, 5) ;     // 1ª Chamada da função 
+
+
+        if($operador == "+"){
+            echo somar(50, 10); // 2ª chamada da função            
+        }
+
+        else{
+            echo "Operador inválido";
+        }
+
+        switch ($operador){
+            case '+':
+                echo somar(99, 1); // 3ª CHAMADA DA FUNÇÃO
+                break;
+            default:
+                echo "Operador inválido!";
+                break;
+                
+        }
 
 ?>
