@@ -1,20 +1,33 @@
-<?php
+<html>
 
-    $vetor = array (
+    <head>
+     <meta charset="utf-8">   
+    </head>
 
-        "Amaury",
-        10.6,
-        "pastel de flango",
-        4,
-        10,
-        12,
-        "Rua A"
+    <body>
+        <div>
+            <pre>
+    <?php
 
+    $vetor = array(
+        1,
+        2,
+        3
     );
+    echo var_dump($vetor) . "</br></br>";
+
+
+    //Adiciona no final do vetor
+    $vetor[] =  6;
+    $vetor[] = "Teste";
 
     echo var_dump($vetor);
-    // count() conta a quantidade de posições
-    echo "</br> A quantia de posições é:" . count($vetor);
-
 
 ?>
+        </pre>
+    </div>
+</body>
+
+
+
+</html>
