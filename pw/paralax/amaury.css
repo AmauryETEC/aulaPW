@@ -1,0 +1,54 @@
+.parallax {
+    width: 100%;
+    height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 50% 0;
+    position: relative;
+}
+
+
+
+
+
+.title {
+color: aliceblue;
+font-size: 3rem;
+text-shadow: 2px 2px 0 #fbc531;
+position: absolute;
+background-color: rgba(red, green, blue, alpha);
+padding: 1rem;
+line-height: 1.5;
+width: 15rem;
+bottom:  3rem;
+left: 10%;
+}
+
+.divisor01{
+    background-image: url('../img/img1.jpg');
+}
+
+.divisor02{
+    background-image: url('../img/img2.jpg');
+}
+
+.divisor03{
+    background-image: url('../img/img3.jpg');
+}
+
+.divisor04{
+    background-image: url('../img/img4.jpg');
+}
+
+.divisor05{
+    background-image: url('../img/img5.jpg');
+}
+
+.textos{
+    padding: 1rem;
+}
+
+.textos h2, .textos p {
+    padding: 1rem;
+    margin: 1.3 0;
+}
